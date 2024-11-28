@@ -1,3 +1,7 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "CrimHook", Icon = "", IntroText = "Welcome, To CrimHook.", IntroEnabled = true, HidePremium = true, SaveConfig = true, ConfigFolder = "CrimHook"})
+
+
 local CombatTab = Window:MakeTab({
 	Name = "Combat",
 	Icon = "rbxassetid://4483345998",
